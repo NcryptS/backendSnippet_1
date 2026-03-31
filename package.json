@@ -2,14 +2,18 @@
   "name": "backendsnip",
   "version": "1.0.0",
   "description": "a backend for snippet",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon src/index.js"
   },
   "keywords": [
     "snippet",
     "backend"
   ],
   "author": "Nitin Singh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
